@@ -1,5 +1,5 @@
 #include "functions.h"
-
+// factorial function
 int factorial(int n){
 	if(n<0){
 		cout<<"Factorial not defined for negative number"<<endl;

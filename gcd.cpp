@@ -18,6 +18,13 @@ int gcd(int a, int b)
 	}
 	return a;
 }
+int gcd_recursive(int a,int b){
+    a=abs(a);
+    b=abs(b);
+   if (a == 0)
+        return b;
+    return gcd(b % a, a);
+}
 
 
 int main()
